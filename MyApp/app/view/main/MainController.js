@@ -7,13 +7,20 @@ Ext.define('MyApp.view.main.MainController', {
 
     alias: 'controller.main',
 
+    // onItemSelected: function (sender, record) {
+    //     debugger;
+    // },
+
     onItemSelected: function (sender, record) {
-        Ext.Msg.confirm('Confirm', 'Are you sure?', 'onConfirm', this);
+        debugger;
+        // Ext.Msg.confirm('Confirm', 'Are you sure?', 'onConfirm', this);
     },
 
     onConfirm: function (choice) {
         if (choice === 'yes') {
-            //
+            alert('yes');
+        }else{
+            alert('no');
         }
     }
 });

@@ -13,6 +13,7 @@ Ext.application({
         'MyApp.*'
     ],
 
+
     // The name of the initial view to create.
-    mainView: 'MyApp.view.main.Main'
+    mainView: 'MyApp.view.firstTask.testTask'
 });

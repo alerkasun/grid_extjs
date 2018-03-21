@@ -6,7 +6,10 @@ Ext.define('MyApp.view.main.List', {
     xtype: 'mainlist',
 
     requires: [
-        'MyApp.store.Personnel'
+        'MyApp.store.Personnel',
+        'Ext.form.field.Checkbox',
+        'Ext.form.field.Date',
+        'Ext.Button'
     ],
 
     title: 'Personnel',

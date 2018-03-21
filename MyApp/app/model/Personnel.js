@@ -5,4 +5,3 @@ Ext.define('MyApp.model.Personnel', {
         'name', 'email', 'phone'
     ]
 });
-dfdf
